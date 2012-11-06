@@ -2,6 +2,8 @@ A MediaWiki client made in R for mediawiki.
 
 Usage
 ======
+rCurl and rjson needs to be installed for this to work.
+
 To set up a script, begin by specifying your wiki's api (i'll be using wikipedia as an example so it might not match your api url exactly):
 
     bot = wiki('http://en.wikipedia.org/w/api.php')
